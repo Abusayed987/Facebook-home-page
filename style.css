@@ -1,0 +1,98 @@
+*{
+    background-color: #f0f2f5;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main{
+    width: 100%;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    min-height: 100vh;
+}
+
+main .facebook{
+    width: 396px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+main .facebook h1{
+  color: #1877f2;
+  font-size: 60px;
+  height: 55px;
+}
+main .facebook h1::first-letter{
+    font-size: 70px;
+}
+main .facebook h3{
+    margin: 45px 0px;
+    font-size: 20px;
+    color: #1c1e21da;
+}
+
+
+main .login{
+    width: 396px;
+    height: 496px;
+    float: right;
+    text-align: center;
+}
+main .login form{
+    background-color: #ffffff;
+    border-radius: 6px;
+    box-shadow: 0px 0px 20px 5px #88888858;
+}
+main .login form .input{
+    font-size: 17px;
+    padding: 14px 16px;
+    width: 330px;
+    border: 1px solid #dddfe2;
+    border-radius: 6px;
+}
+main .login form .log{
+    padding: 0 16px;
+    width: 364px;
+    color: white;
+    background-color: #1877f2;    
+    cursor: pointer;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    line-height: 48px;
+}
+main .login form a{
+    text-decoration: none;
+    color: #1877f2;
+    background-color: #ffffff;
+}
+main .login form .account{
+    width: 215px;
+    color: white;
+    background-color: #42b72a;    
+    cursor: pointer;
+    border: none;
+    border-radius: 6px;
+    font-size: 17px;
+    line-height: 38px;
+}
+main .login form hr{
+    margin-left: 25px;
+    /* padding: 0px px; */
+    width: 88%;
+    border: 0.3px solid #dddfe2;
+    border-radius: 6px;
+}
+main .login p a {
+    text-decoration: none;
+    color: #000; 
+    font-weight: bold;
+}
+main .login p a:hover{
+    text-decoration: underline;
+}
