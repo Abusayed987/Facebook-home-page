@@ -35,8 +35,13 @@ main .facebook h3{
     font-size: 20px;
     color: #1c1e21da;
 }
+/* end facebook text ---------------
+----------------------------------- */
 
 
+
+/* :start form----------------------
+ ---------------------------------- */
 main .login{
     width: 396px;
     height: 496px;
@@ -96,3 +101,92 @@ main .login p a {
 main .login p a:hover{
     text-decoration: underline;
 }
+
+/* End form --------------------
+-------------------------------- */
+
+
+
+/* star Footer ------------------- 
+-----------------------------------*/
+
+
+
+
+/* end Footer --------------------
+-------------------------------- */
+
+
+
+/*----------------------- responsive ------------------------*/
+
+/* mobile view 
+-------------- */
+
+@media(min-width:300px) and (max-width:599px){
+    main{
+        display: flex;
+        flex-direction: column;
+    }
+    main .facebook {
+            height: 200px;
+           margin-left: 45px;
+           width: 300px;
+    }
+    main .login{
+        width: 280px;
+    }
+    main .login form .input {
+        width: 235px;
+        font-size: 14px;
+    }
+    main .login form .log {
+        width: 270px;
+        font-size: 17px;
+    }
+    main .login form a {
+        font-size: 14px;
+    }
+    main .login form .account{
+        font-size: 16px;
+    }
+    main .login p{
+        font-size: 14px;
+    }
+}
+
+/* tablet view 
+-------------- */
+@media(min-width:600px) and (max-width:919px){
+    main{
+    display: flex;
+    flex-direction: column;
+    margin-top: -10vh;
+   }
+    main .facebook {
+         height: 70px;
+        margin-left: 45px;
+    }
+    main .login{
+        width: 348px;
+        height: 294px;
+    }
+    main .login form .input {
+    width: 298px;
+    }
+    main .login form .log {
+    width: 335px;
+    }
+}
+
+/* laptop or desktop view  */
+@media(min-width:1024px){
+
+}
+
+
+
+
+/* -------------------------------------------------------------------
+                                THE END
+----------------------------------------------------------------------- */
