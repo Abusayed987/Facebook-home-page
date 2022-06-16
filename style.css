@@ -109,7 +109,13 @@ main .login p a:hover{
 
 /* star Footer ------------------- 
 -----------------------------------*/
+footer{
+    width: 100%;
+    background-color: #ffffff;
+    text-align: center;
+    color: gray;
 
+}
 
 
 
@@ -153,6 +159,9 @@ main .login p a:hover{
     main .login p{
         font-size: 14px;
     }
+    footer{
+        
+    }
 }
 
 /* tablet view 
@@ -176,6 +185,9 @@ main .login p a:hover{
     }
     main .login form .log {
     width: 335px;
+    }
+    footer{
+        margin-top: 40px;
     }
 }
 
